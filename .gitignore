@@ -11,3 +11,4 @@ coverage/
 *.bak
 example.js
 tests/
+.github/
