@@ -59,21 +59,21 @@ const flw = new Flutterwave({
 ```
 
 ## 📚 Features
-✅ Collections (Card, Bank, Mobile Money, USSD, etc.)
-✅ Tokenization
-✅ Split payments
-✅ Scheduled payments
-✅ Transfers
-✅ Card Issuing
-✅ Virtual Accounts
-✅ Bill Payments
-✅ Transactions & Reporting
-✅ Beneficiaries
-✅ Banks
-✅ Settlements
-✅ OTP
-✅ eBills
-✅ Miscellaneous Endpoints
+- Collections (Card, Bank, Mobile Money, USSD, etc.)
+- Tokenization
+- Split payments
+- Scheduled payments
+- Transfers
+- Card Issuing
+- Virtual Accounts
+- Bill Payments
+- Transactions & Reporting
+- Beneficiaries
+- Banks
+- Settlements
+- OTP
+- eBills
+- Miscellaneous Endpoints
 
 ## 🔍 Usage Examples
 See the [examples](./examples) directory for more usage examples.
