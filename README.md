@@ -1,5 +1,10 @@
 # Flutterwave Node v3 (TypeScript SDK)
 
+[![npm version](https://img.shields.io/npm/v/flutterwave-v3-ts.svg)](https://www.npmjs.com/package/flutterwave-v3-ts)
+[![npm downloads](https://img.shields.io/npm/dm/flutterwave-v3-ts.svg)](https://www.npmjs.com/package/flutterwave-v3-ts)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/adsesugh/flutterwave-v3-ts/ci.yml?branch=main)](https://github.com/adsesugh/flutterwave-v3-ts/actions)
+
 A fully typed **TypeScript SDK** for the [Flutterwave v3 API](https://developer.flutterwave.com/).  
 This library simplifies integrating payments, transfers, card issuing, and more with Flutterwave in your Node.js/TypeScript applications.
 

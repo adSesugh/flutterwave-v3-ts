@@ -9,3 +9,5 @@ coverage/
 *.tmp
 *.swp
 *.bak
+example.js
+tests/
