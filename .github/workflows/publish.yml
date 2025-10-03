@@ -1,14 +1,13 @@
-name: Publish Flutterwave Node v3 TS SDK
+name: Release Flutterwave Node v3 TS SDK
 
 on:
   push:
     branches:
       - main
-  release:
-    types: [created]
 
 jobs:
-  build:
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -23,14 +22,13 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build TypeScript
+      - name: Build
         run: npm run build
 
-      - name: Run tests (optional)
-        run: npm test
-
-      - name: Publish to npm
-        if: github.ref == 'refs/heads/main'
-        run: npm publish --access public
+      - name: Create Release PR or Publish
+        uses: changesets/action@v1
+        with:
+          publish: npm run release
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
