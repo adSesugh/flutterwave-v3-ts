@@ -1,5 +1,10 @@
 # @adsesugh/flutterwave-v3-ts
 
+## 1.0.3
+### Patch Changes
+- Fixed issue with bank listing endpoint in `services/bankService.ts`.
+- Fix NPM links
+
 ## 1.0.2
 
 ### Patch Changes
